@@ -14,3 +14,13 @@ exports.getUserById = user => {
       }
     });
 };
+
+exports.fetchAllUsers = () => {
+  return connection
+    .select("*")
+    .from("users")
+    .returning("*")
+    .then(response => {
+      return response;
+    });
+};
