@@ -4,7 +4,7 @@ A basic news article API built using Node.js, Express, Postgress and Knex. This 
 
 ## Hosted @:
 
-https://by-tor2114-nc-news.herokuapp.com/api
+https://nc-news-full-stack.herokuapp.com/api
 
 ## Getting Stared
 
